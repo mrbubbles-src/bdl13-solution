@@ -10,4 +10,35 @@
 * Go back to master and create another branch named `hotfix` from master. Note that the changes in your previous branch, `content`, are not there. 
 * View all branches on terminal.
 
-> Look up the branches in this repository to see solutions
+> check README files of other branches to see all solutions
+
+# Solution
+
+```bash
+cd Desktop
+mkdir bdl13-solution
+cd  bdl13-solution/
+touch README.md
+code .
+```
+README.md wird in VSCode editiert
+
+### main branch wird geadded und commited
+
+```bash
+git add .
+git commit -m "first commit"
+
+```
+
+### branch `content` wird erstellt
+
+```
+git checkout -b content
+```
+
+### branch `hotfix`wird erstellt
+
+```bash
+git checkout -b hotfix
+```
