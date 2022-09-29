@@ -12,27 +12,11 @@
 
 # Solution
 
-```bash
-cd Desktop
-mkdir bdl13-solution
-cd  bdl13-solution/
-touch README.md
-code .
-```
-README.md wird in VSCode editiert
-
-### branch `content` wird erstellt
-
-```bash
-git add .
-git commit -m "first commit"
-git checkout -b content
-
-```
-### readme.txt wird erstellt und text in vs code hinzugefügt und geadded
+### readme.txt im vscode terminal erstellt und text über vs code hinzugefügt und geadded und commited und zurück in main branch gewechselt
 
 ```bash
 touch readme.txt
 git add .
 git commit -m "first commit content branch"
+git checkout main
 ```
