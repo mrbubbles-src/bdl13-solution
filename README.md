@@ -9,3 +9,5 @@
 * Add text to the readme file on the `content` branch. Don't forget to add and commit these changes.
 * Go back to master and create another branch named `hotfix` from master. Note that the changes in your previous branch, `content`, are not there. 
 * View all branches on terminal.
+
+> Look up the branches in this repository to see solutions
